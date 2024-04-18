@@ -1,0 +1,12 @@
+package objetos1;
+
+public class Alumno {
+
+	//Atributos 
+	String dni;
+	int edad;
+	float media;
+	
+	
+	
+}

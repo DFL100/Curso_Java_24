@@ -1,0 +1,40 @@
+package objetos1;
+
+public class Alumno {
+
+	//Atributos o propiedades
+	String dni;
+	String nombre;
+	String email;
+	int edad;
+	float media;
+	
+	//Constructores: metodo que inicializa los atributos de la clase alumno
+	//1. Se llaman obligatoriamente igual que la clase
+	//2. No se indica ningún tipo de retorno
+	public Alumno() {
+		//Constructor por defecto
+		//Normalmente de deja vacío
+		media = 1;
+	}
+	
+	/*public Alumno (String dni, int edad) {
+		this.dni = dni;
+		//nombre = 
+		//email = 
+		this.edad = edad;
+		this.media = 1;
+		
+	}*/
+
+	public Alumno(String dni, String nombre, String email, int edad, float media) {
+		super();
+		this.dni = dni;
+		this.nombre = nombre;
+		this.email = email;
+		this.edad = edad;
+		this.media = media;
+	}
+	
+	
+}

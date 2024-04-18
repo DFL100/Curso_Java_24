@@ -1,0 +1,26 @@
+package objetos1;
+
+public class test_alumno {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		//Declarar una variable de tipo alumo
+		Alumno a1 = new Alumno();
+		Alumno a2 = new Alumno("87654321A", 23);
+		Alumno a3 = new Alumno();
+		
+		a1.dni = "12345678P";
+		a1.edad = 20;
+		a1.media = 9.4f;
+		
+		//Mostrar por pantalla los datos del alumnno
+		System.out.println(a1.dni + " " + a1.edad + " " + a1.media);
+		System.out.println(a2.dni + " " + a2.edad + " " + a2.media);
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,16 @@
+package objetos2;
+
+public class coche {
+
+	String matricula;
+	double precio;
+	motor motor;
+	public coche(String matricula, double precio, objetos2.motor motor) {
+		super(); //<-- Esto se puede sacar
+		this.matricula = matricula;
+		this.precio = precio;
+		this.motor = motor;
+	}
+	
+	
+}
